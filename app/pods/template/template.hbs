@@ -1,0 +1,7 @@
+<h2>Single template with &lbrace;&lbrace;#each}}</h2>
+
+<ul>
+  {{#each model.items as |item|}}
+    <li>{{item.index}}: {{item.name}}</li>
+  {{/each}}
+</ul>

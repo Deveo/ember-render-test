@@ -1,0 +1,11 @@
+<h2>Multiple components</h2>
+
+<ul>
+  {{#each model.items as |item|}}
+    {{x-item
+      index   = item.index
+      name    = item.name
+      tagName = 'li'
+    }}
+  {{/each}}
+</ul>
