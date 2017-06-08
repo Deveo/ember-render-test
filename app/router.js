@@ -10,6 +10,10 @@ Router.map(function() {
   this.route('multiple')
   this.route('template')
   this.route('html')
+
+  this.route('multiple-styled')
+  this.route('template-styled')
+  this.route('html-styled')
 });
 
 export default Router;
