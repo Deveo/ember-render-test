@@ -14,6 +14,9 @@ Router.map(function() {
   this.route('multiple-styled')
   this.route('template-styled')
   this.route('html-styled')
+
+  this.route('incremental')
+  this.route('incremental-styled')
 });
 
 export default Router;

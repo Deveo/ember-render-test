@@ -1,0 +1,13 @@
+<h2>Incremental Unstyled</h2>
+
+<div class = "incremental">
+  {{#ember-collection
+    items=model.items
+    cell-layout=(percentage-columns-layout model.items.length (array 100) 18) as |item|
+  }}
+    {{x-item
+      index   = item.index
+      name    = item.name
+    }}
+  {{/ember-collection}}
+</div>
